@@ -31,6 +31,7 @@ namespace Multiplatformer.Mac
     {
         static void Main(string[] args)
         {
+            var foo = new Services.MockDataStore(); // Define in Crossplatform project.
             NSApplication.Init();
             NSApplication.Main(args);
         }
