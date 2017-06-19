@@ -95,9 +95,9 @@
     <InterfaceDefinition Include="Main.storyboard" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Multiplatformer.Core\Multiplatformer.Core.csproj">
-      <Project>{202994D1-BA54-457E-BB58-E98F32A1CB44}</Project>
-      <Name>Multiplatformer.Core</Name>
+    <ProjectReference Include="..\Multiplatformer.Standard\Multiplatformer.Standard.csproj">
+      <Project>{D8001262-5D70-40C0-A46C-EE8420F30758}</Project>
+      <Name>Multiplatformer.Standard</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />
