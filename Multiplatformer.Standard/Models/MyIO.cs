@@ -1,5 +1,5 @@
 ﻿//
-// Main.cs
+// MyIO.cs
 //
 // Author:
 //       budougumi0617 <budougumi0617@gmail.com>
@@ -23,27 +23,19 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
-using AppKit;
-using Multiplatformer.Standard.Models;
-using Multiplatformer.Standard.Services;
+using System;
+using System.Collections.Generic;
 
-
-namespace Multiplatformer.Mac
+namespace Multiplatformer.Standard.Models
 {
-    static class MainClass
+    public class MyIO
     {
-        static void Main(string[] args)
-        {
-            var foo = new MockDataStore(); // Define in Crossplatform project.
-            var myIo = new MyIO();
-            var dirPath = myIo.GetCurrentDirectory();
-            var files = myIo.GetFiles(dirPath);
-            foreach (var file in files){
-                System.Console.WriteLine(file);
-            }
-            System.Console.WriteLine(dirPath);
-            NSApplication.Init();
-            NSApplication.Main(args);
+        public string GetCurrentDirectory(){
+            return System.IO.Directory.GetCurrentDirectory();
+        }
+
+        public string[] GetFiles(string dirPath){
+            return System.IO.Directory.GetFiles(dirPath);
         }
     }
 }

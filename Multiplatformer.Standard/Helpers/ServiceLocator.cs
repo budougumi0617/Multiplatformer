@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Multiplatformer.Helpers
+namespace Multiplatformer.Standard.Helpers
 {
     /// <summary>
     ///     Simple ServiceLocator implementation.

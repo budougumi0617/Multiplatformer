@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Multiplatformer.Services
+namespace Multiplatformer.Standard.Services
 {
     public interface IDataStore<T>
     {

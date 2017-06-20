@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Multiplatformer.Helpers
+namespace Multiplatformer.Standard.Helpers
 {
     class MessagingCenterAlert
     {

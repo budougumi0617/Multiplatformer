@@ -1,4 +1,4 @@
-﻿namespace Multiplatformer.Model
+﻿namespace Multiplatformer.Standard.Models
 {
     public class Item : BaseDataObject
     {

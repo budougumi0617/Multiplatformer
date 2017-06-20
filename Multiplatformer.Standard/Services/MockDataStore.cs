@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using Multiplatformer.Model;
+using Multiplatformer.Standard.Models;
 
-namespace Multiplatformer.Services
+namespace Multiplatformer.Standard.Services
 {
     public class MockDataStore : IDataStore<Item>
     {
         bool isInitialized;
         List<Item> items;
+
+        public MockDataStore()
+        {
+            Console.WriteLine($"Generate {typeof(MockDataStore)}");
+        }
 
         public async Task<bool> AddItemAsync(Item item)
         {

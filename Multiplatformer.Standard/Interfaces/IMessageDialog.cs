@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Multiplatformer.Interfaces
+namespace Multiplatformer.Standard.Interfaces
 {
     public interface IMessageDialog
     {

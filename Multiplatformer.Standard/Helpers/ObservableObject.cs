@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Multiplatformer.Helpers
+namespace Multiplatformer.Standard.Helpers
 {
     /// <summary>
     /// Observable object with INotifyPropertyChanged implemented

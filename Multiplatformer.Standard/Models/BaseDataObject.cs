@@ -1,8 +1,8 @@
-﻿using Multiplatformer.Helpers;
-using Multiplatformer.Interfaces;
+﻿using Multiplatformer.Standard.Helpers;
+using Multiplatformer.Standard.Interfaces;
 using System;
 
-namespace Multiplatformer.Model
+namespace Multiplatformer.Standard.Models
 {
     public class BaseDataObject : ObservableObject, IBaseDataObject
     {

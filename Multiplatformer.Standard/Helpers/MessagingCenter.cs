@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Multiplatformer.Helpers
+namespace Multiplatformer.Standard.Helpers
 {
     public static class MessagingCenter
     {
